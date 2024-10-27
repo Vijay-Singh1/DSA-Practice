@@ -1,5 +1,7 @@
 const BubbleSort = (arr) => {
   let swapped = false;
+
+
   for (i = 0; i < arr.length; i++) {
     for (j = 0; j < arr.length - i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
@@ -15,7 +17,8 @@ const BubbleSort = (arr) => {
   return arr;
 };
 
-const unsortedArray = [5, 1, 6, 3, 10, 4, 77, 4, 35, 6, 45];
-const sortedArray = BubbleSort(unsortedArray);
+const unsortedArray =[64, 56,23454,432,67,8,9,0,34, 25, 12, 22, 11, 90];
+const BubbleSortArray = BubbleSort(unsortedArray);
 
-console.log(sortedArray);
+
+module.exports = {BubbleSortArray}
