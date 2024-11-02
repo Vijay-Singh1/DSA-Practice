@@ -21,4 +21,4 @@ const unsortedArray =[64, 56,23454,432,67,8,9,0,34, 25, 12, 22, 11, 90];
 const BubbleSortArray = BubbleSort(unsortedArray);
 
 
-module.exports = {BubbleSortArray}
+module.exports = {BubbleSortArray, BubbleSort}
